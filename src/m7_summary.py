@@ -11,7 +11,7 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 
 ########################################################################
 #
-# TODO: 2.
+# DONE: 2.
 #   Write code that accomplishes the following (and ONLY the following),
 #   in the order listed:
 #
@@ -51,9 +51,9 @@ carl.pen = rg.Pen('blue',1)
 carl.left(90)
 carl.forward(200)
 carl.pen_up()
-carl.go_to(100,-40)
+carl.go_to(rg.Point(100, -40))
 carl.pen_down()
 carl.pen = rg.Pen('green', 10)
-carl.go_to(100,-190)
+carl.go_to(rg.Point(100, -190))
 
 window.close_on_mouse_click()
